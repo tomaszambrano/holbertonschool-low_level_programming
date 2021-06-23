@@ -1,9 +1,0 @@
-#include <stdio.h>
-
-int
-main (void)
-{
-  printf ("Hello bienvenido a calculadora automatica!\n");
-  printf ("Ingresa el 1er numerotica!\n");
-  return 0;
-}

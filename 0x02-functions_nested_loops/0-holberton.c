@@ -1,3 +1,4 @@
+#include "holberton.h"
 #include <stdio.h>
 
 /**
@@ -6,9 +7,8 @@
  * Return: Always (Success)
  */
 
-int main ()
+int main(void)
 {
 printf("Holberton\n");
-return 0;
+return (0);
 }
- 

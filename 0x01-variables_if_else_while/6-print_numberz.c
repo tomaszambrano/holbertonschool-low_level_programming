@@ -1,19 +1,22 @@
 #include <stdio.h>
 
 /**
- *main - Prints all digit base 10
+ * main - Prints a hexadecimal string
  *
- *Return: Always (Success)
+ * Return: Always (Success)
  */
 int main(void)
 {
-int num;
-char c;
-for (num = 0; num <= 9; num++)
+char hex;
+
+for (hex = '0'; hex <= '9'; hex++)
 {
-c = num + '0';
-putchar (c);
+putchar(hex);
 }
-write("\n");
+for (hex = 'a'; hex <= 'f'; hex++)
+{
+putchar(hex);
+}
+putchar('\n');
 return (0);
 }

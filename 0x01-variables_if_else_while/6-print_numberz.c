@@ -17,6 +17,6 @@ for (hex = 'a'; hex <= 'f'; hex++)
 {
 putchar(hex);
 }
-putchar('\n');
+puts('\n');
 return (0);
 }
